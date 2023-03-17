@@ -1,6 +1,10 @@
 {
     "redirects": [
         {
+            "source": "/opendal/(.*)",
+            "destination": "https://opendal.apache.org/docs/rust/opendal/$1"
+        },
+        {
             "source": "/(.*)",
             "destination": "https://opendal.apache.org/$1"
         }
